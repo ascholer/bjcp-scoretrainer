@@ -185,6 +185,9 @@ Suggest other category if appropriate</textarea>
       let upTo = target.value.substr(0, target.selectionStart);
       let after = target.value.substr(target.selectionEnd);
       target.value = upTo + value + (target.value[target.selectionEnd - 1] == ' ' ? ' ' : "") + after;
+      target.selectionStart = upTo.length + value.length;
+      target.selectionEnd = upTo.length + value.length;
+      console.log(target.selectionStart)
     }
 
     function textAreaClick(e) {
