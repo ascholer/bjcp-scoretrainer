@@ -1,0 +1,21 @@
+main {
+    padding-bottom: 3em;
+}
+
+.nav-link {
+    padding: 0.5em;
+    font-size: 80%;
+}
+
+label {
+    font-weight: bold;
+}
+
+.categoryGroup {
+    margin-top: 1em;
+}
+
+form {
+    border: 1px solid #fafafa;
+    padding: 10px;
+}
